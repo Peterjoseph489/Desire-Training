@@ -1,0 +1,24 @@
+{
+  "name": "desirelessons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "desire.js",
+  "scripts": {
+    "test": "node desire.js",
+    "dev": "nodemon desire.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peterjoseph489/Desire-Training.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peterjoseph489/Desire-Training/issues"
+  },
+  "homepage": "https://github.com/Peterjoseph489/Desire-Training#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
