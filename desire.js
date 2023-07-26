@@ -162,3 +162,27 @@ console.log(desire)
 // toString(), length, concat(), typeof, pop(), push(), shift(), unshift(), join().
 // Assignment
 
+
+
+const myGirls = ["Cecilie", "Lone"];
+const myBoys = ["Emil", "Tobias", "Linus"];
+
+const myChildren = myGirls.concat(myBoys);
+console.log(myChildren);
+
+
+const myArr = [["car",2],[3,4],[5,6]];
+const newArr = myArr.flat();
+console.log(newArr);
+
+
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// fruits.splice(0, 1);
+// console.log(fruits);
+
+
+const fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+const citrus = fruits.slice(1, 3);
+console.log(fruits);
+console.log(citrus);
+
